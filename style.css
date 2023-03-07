@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .container{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background-color: rgb(170, 198, 209);
+    box-shadow: 0px 2px 20px   rgb(31, 31, 31);
+  }
+
+  .log h1{
+     text-align: center;
+  }
+
+  .form-control{
+    padding: 10px;
+    width: 100%;
+    position: relative;
+}
+.form-control input ,.form-control select{
+    padding: 10px;
+    border: 2px solid gray;
+     min-width:30vw; 
+     display: block;
+     background: transparent;
+     margin-bottom:5px;
+}
+
+.lang{
+  margin: 2%;
+}
+
+.Form-1 label {
+  margin: 2%;
+}
+
+
+.lang label{
+  margin-bottom: 2%;
+  display: block;
+}
+
+#f-lable ,#L-lable , #email-lable #p-lable{
+display: block;
+color: #777;
+}
+input:focus , select:focus{
+outline: none;
+}
+small {
+color: red;
+}
+button{
+    background-color: rgb(128, 128, 205);
+    padding: 10px 20px;
+    border: none;
+    margin-top: 10px;
+    margin-bottom:3%;
+    cursor: pointer;
+    margin: 2%;
+    justify-content: center;
+}
+
+.bt1{
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width:576px){
+  body{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .container{
+    margin: 10%;
+  }
+  .form-control input ,.form-control select {
+    padding: 10px;
+    border: 2px solid gray;
+     min-width:70vw; 
+     display: block;
+     background: transparent;
+     margin-bottom:5px;
+}
+
+}
